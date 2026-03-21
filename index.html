@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+    <title>Passthebooks</title>
+
+    <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+    <div class="container">
+
+        <div class="profile">
+
+            <div class="profile-left">
+                <img src="abhijeetdp.jpeg" alt="Profile" />
+
+                <div class="profile-text">
+                    <h1>Abhijeet Singh</h1>
+                    <p>Be careful, you can become what you read!</p>
+                </div>
+            </div>
+
+            <div class="profile-right">
+                <span class="label">Currently reading</span>
+
+                <div class="current-books">
+                    <div class="mini-card">
+                        <h4>The Personal MBA</h4>
+                        <p>Josh Kaufman</p>
+                    </div>
+
+                    <div class="mini-card">
+                        <h4>Everything Is F*cked</h4>
+                        <p>Mark Manson</p>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+        <!-- NEW WRAPPER -->
+        <div class="content">
+
+
+            <!-- Toggle -->
+            <div class="toggle">
+                <button id="readTab" class="active">Books I’ve Read</button>
+                <button id="wantTab">Wishlist</button>
+            </div>
+
+            <!-- Subtext -->
+            <div id="subtext" class="subtext">
+                Some of these are on my shelf. If you want one, just ask.
+            </div>
+
+            <!-- Book List -->
+            <div id="books" class="book-list"></div>
+
+            <div class="cta-section">
+
+                <!-- Left Content -->
+                <div class="cta-left">
+                    <h3>This page was built so we can share books with each other.</h3>
+
+                    <p>
+                        Create your profile to share what you’ve read, see what others have, and add your wishlist.
+                    </p>
+                </div>
+
+                <!-- Right Form -->
+                <button id="ctaBtn">
+  <i class="fa-brands fa-whatsapp"></i>
+  Request your profile
+</button>
+
+            </div>
+
+        </div>
+    </div>
+
+
+    <script src="script.js"></script>
+</body>
+
+</html>
